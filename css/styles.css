@@ -61,8 +61,7 @@ color:#404bbf
    font-style:normal;
 }
 
-address.address-list{}
-.address{
+.address-list .address{
 color: #434455;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -70,7 +69,7 @@ letter-spacing: 0.02em;
 }
 
 
-.address:hover, .address:focus {
+.address-list:hover, .address-list:focus {
 color: #404bbf;
 }
 
