@@ -8,13 +8,7 @@ body{
     a{
         text-decoration: none;
     }
-    .web{
-      color: #4d5ae5;
-    }
-    .studio{
-      color: #f4f4fd;
-    }
-     .nav-logo-studio{
+     .web{
         font-family: "Raleway",sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -24,7 +18,7 @@ body{
         text-decoration: none;
         color:#4d5ae5;
      }
-     .nav-logo{
+     .studio{
         color: #2E2F42;
      }
 
@@ -35,8 +29,8 @@ body{
         letter-spacing: 0.02em;
         color: #2E2F42;
      }
-     .nav-list:hover,
-     .nav-list:focus{
+     .nav-link:hover,
+     .nav-link:focus{
        color: #404BBF;
      }
      .address{
@@ -63,7 +57,8 @@ body{
         color: #fff;
      }
      .section-name-1{
-       font-size: 56px;
+      font-weight: 700; 
+      font-size: 56px;
        line-height: 1.07;
        text-align: center;
        letter-spacing: 0.02em;
@@ -82,17 +77,11 @@ body{
      .section-button:focus{
        background-color: #404BBF;
      }
-    .section-1{
+    .section-name{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         color: #2E2F42;
-    }
-    .section-benefits{
-       font-weight: 500;
-       font-size: 20px;
-       line-height: 1.2;
-       letter-spacing: 0.02em;
     }
     .section-text-1{
         font-weight: 400;
@@ -104,7 +93,7 @@ body{
     .section-2{
        background-color: #F4F4FD;
     }
-    .section-Our Team{
+    .section-title{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -113,68 +102,44 @@ body{
         text-transform: capitalize;
         color: #2E2F42;
     }
-    .section-list-2{
+    .section-text{
        background-color: #FFFFFF;
     }
-    .our-section-item-2{
+    .section-item{
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
-    .section-text-2{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    .section-name-team, .section-name-portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
     }
-     .section-3
-     {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color: #2E2F42;
-     }
-     .section-Our Portfolio{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-     }
-     .section-text-3{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-     }
-     .footer{
-        width: 1440px;
-        height: 312px;
-        background-color: #2E2F42;
-     }
-     .footer-logo{
-       font-family: "Raleway",sans-serif;
-       font-weight: 700;
-       font-size: 18px;
-       line-height: 1.17;
-       letter-spacing: 0.03em;
-       text-transform: uppercase;
-       color: #4D5AE5;
-     }
-     .footer{
-       color: #F4F4FD;
-     }
-     .text-footer{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #F4F4FD;
-     }
+    .section-item{
+      background-color: #ffffff;
+    }
+.section-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.section-3{
+   text-transform: capitalize;
+    line-height: 1.5;
+}
+.footer{
+   background-color: #2e2f42;
+}
+.text-footer{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
